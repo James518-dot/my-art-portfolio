@@ -3,7 +3,7 @@
 const portfolio = {
   contact: {
     email: '2812841311@qq.com', // 例如：你愿意公开的邮箱；留空时显示“待填写”
-    instagram: '2812841311HL'
+    wechat: '2812841311HL'
   },
   works: [
     { id: '1', title: '午后的静默', year: '2024', series: '日常的切片', medium: '木板油画', size: '80 × 100 cm', image: 'images/still-life.svg', alt: '暖灰色背景中的陶罐、枝叶与水果占位插画', description: '示例描述：以静物的轮廓与柔和的色彩，探索日常物件之间的安静关系。' },
