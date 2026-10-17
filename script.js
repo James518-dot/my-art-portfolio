@@ -71,7 +71,7 @@ const contact = document.querySelector('#contact-links');
 for (const [label, value] of [['邮箱', portfolio.contact.email], ['wechat', portfolio.contact.wechat]]) {
   const row = document.createElement('div'); row.className = 'contact-row';
   const name = document.createElement('span'); name.textContent = label; row.append(name);
-  const valid = label === '邮箱' ? /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) : /^https:\/\/(www\.)?wechat\.com\/[^\s]+$/i.test(value);
+  const const valid = value.trim() !== '';
   const target = document.createElement(valid ? 'a' : 'span'); target.textContent = valid ? (label === '邮箱' ? value : '访问 wechat ↗') : '待填写';
   if (valid) { target.href = label === '邮箱' ? 'mailto:' + value : value; if (label === 'wechat') { target.target = '_blank'; target.rel = 'noopener noreferrer'; } }
   row.append(target); contact.append(row);
