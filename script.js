@@ -68,12 +68,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') { menu.setAt
 const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) nav.querySelectorAll('a').forEach(a => { if (a.hash === '#' + entry.target.id) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current'); }); }); }, { rootMargin: '-15% 0px -55% 0px' });
 document.querySelectorAll('main > section').forEach(s => observer.observe(s));
 const contact = document.querySelector('#contact-links');
-for (const [label, value] of [['邮箱', portfolio.contact.email], ['Instagram', portfolio.contact.instagram]]) {
+for (const [label, value] of [['邮箱', portfolio.contact.email], ['wechat', portfolio.contact.wechat]]) {
   const row = document.createElement('div'); row.className = 'contact-row';
   const name = document.createElement('span'); name.textContent = label; row.append(name);
-  const valid = label === '邮箱' ? /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) : /^https:\/\/(www\.)?instagram\.com\/[^\s]+$/i.test(value);
-  const target = document.createElement(valid ? 'a' : 'span'); target.textContent = valid ? (label === '邮箱' ? value : '访问 Instagram ↗') : '待填写';
-  if (valid) { target.href = label === '邮箱' ? 'mailto:' + value : value; if (label === 'Instagram') { target.target = '_blank'; target.rel = 'noopener noreferrer'; } }
+  const valid = value && value.trim() !== '';
+  const target = document.createElement('span'); target.textContent = valid ? value : '待填写';
   row.append(target); contact.append(row);
 }
 document.querySelector('#year').textContent = new Date().getFullYear();
