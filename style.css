@@ -13,8 +13,8 @@
 @media (max-width: 560px) {
   .artist-photo {
     position: static;
-    width: 35px;
-    height: 45px;
+    width: 45px;
+    height: 57px;
     margin: 10px 0 0 auto;
   }
 }
