@@ -52,7 +52,7 @@ function openWork(id) {
   if (currentIndex < 0) return;
   returnFocus = document.activeElement; updateDialog(); dialog.showModal(); document.body.classList.add('modal-open');
 }
-document.querySelector('[data-open]').addEventListener('click', e => openWork(e.currentTarget.dataset.open));
+document.querySelector('[data-open]')?.addEventListener('click', e => openWork(e.currentTarget.dataset.open));
 document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', e => { if (e.target === dialog) { const r = dialog.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dialog.close(); } });
 dialog.addEventListener('close', () => { document.body.classList.remove('modal-open'); returnFocus?.focus(); });
