@@ -17,7 +17,6 @@ function renderWorks() {
     const img = document.createElement('img');
     img.src = work.image; img.alt = work.alt; img.loading = 'lazy'; img.width = 700; img.height = 850;
     button.append(img);
-    const mark = document.createElement('span'); mark.className = 'work-number'; mark.textContent = `0${i + 1} / 示例作品 ↗`; button.append(mark);
     button.addEventListener('click', () => openWork(work.id));
     const heading = document.createElement('h3'); heading.textContent = work.title;
     const year = document.createElement('span'); year.textContent = work.year;
