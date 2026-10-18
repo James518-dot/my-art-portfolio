@@ -33,6 +33,83 @@ const portfolio = {
   image: 'images/xu.jpg',
   alt: '画面描述',
   description: '作品介绍'
-}   
+},     
+ {
+  id: '9',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/fengjing01.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+ {
+  id: '10',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/fengjing02.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+{
+  id: '11',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/fengjing03.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+{
+  id: '12',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/ji.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+{
+  id: '13',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/nianhua02.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+{
+  id: '14',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/wuti01.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+},
+{
+  id: '15',
+  title: '作品名称',
+  year: '2026',
+  series: '绘画创作',
+  medium: '布面油画',
+  size: '60 × 80 cm',
+  image: 'images/dangdai.jpg',
+  alt: '画面描述',
+  description: '作品介绍'
+}
   ]
 };
