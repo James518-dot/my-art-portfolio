@@ -6,12 +6,12 @@ const portfolio = {
     wechat: '2812841311HL'
   },
   works: [
-    { id: '1', title: '午后的静默', year: '2024', series: '日常的切片', medium: '木板油画', size: '80 × 100 cm', image: 'images/still-life.svg', alt: '暖灰色背景中的陶罐、枝叶与水果占位插画', description: '示例描述：以静物的轮廓与柔和的色彩，探索日常物件之间的安静关系。' },
-    { id: '2', title: '远山来信', year: '2024', series: '绘画创作', medium: '木板油画', size: '100 × 80 cm', image: 'images/landscape.svg', alt: '层叠山丘与浅色天空的风景占位插画', description: '示例描述：层叠的山丘成为记忆的容器，远处的风景在色块之间慢慢浮现。' },
-    { id: '3', title: '画室一隅', year: '2024', series: '日常的切片', medium: '布面油画', size: '50 × 60 cm', image: 'images/painting-01.jpg', alt: '米色瓶中一枝深色植物的占位插画', description: '示例描述：一枝植物与空白空间，构成对时间和轻微变化的观察。' },
-    { id: '4', title: 'MOMO', year: '2026', series: '小动物创作', medium: '木板油画', size: '30 × 40 cm', image: 'images/painting-niao.jpg', alt: '褐色室内与窗边斜射光线的占位插画', description: '示例描述：光落在空房间的墙面与地面上，划分出不同的温度与节奏。' },
-    { id: '5', title: '岸边的风', year: '2024', series: '绘画创作', medium: '木板油画', size: '100 × 70 cm', image: 'images/coast.svg', alt: '沙色海岸与灰绿色水面的占位插画', description: '示例描述：从记忆中的海岸出发，寻找色彩与距离之间的关系。' },
-    { id: '6', title: 'JIMI', year: '2026', series: '小动物创作', medium: '木板油画', size: '30 × 40 cm', image: 'images/painting-niao2.jpg', alt: '暖灰色房间里一把椅子的占位插画', description: '示例描述：空置的房间与一把椅子，让观看停留在物体之外的空间。' },
+    { id: '1', title: '风景', year: '2026', series: '绘画创作', medium: '布面油画', size: '60 × 100 cm', image: 'images/fengjing06.jpg', alt: '暖灰色背景中的陶罐、枝叶与水果占位插画', description: '创作' },
+    { id: '2', title: '风景', year: '2026', series: '日常的切片', medium: '布面油画', size: '40 × 50 cm', image: 'images/fengjing04.jpg', alt: '层叠山丘与浅色天空的风景占位插画', description: '写生的' },
+    { id: '3', title: '画室一隅', year: '2024', series: '日常的切片', medium: '布面油画', size: '50 × 60 cm', image: 'images/painting-01.jpg', alt: '米色瓶中一枝深色植物的占位插画', description: '在画室。' },
+    { id: '4', title: 'MOMO', year: '2026', series: '小动物创作', medium: '木板油画', size: '30 × 40 cm', image: 'images/painting-niao.jpg', alt: '褐色室内与窗边斜射光线的占位插画', description: 'MOMO与NIUNIU' },
+    { id: '5', title: '风景', year: '2026', series: '绘画创作', medium: '布面油画', size: '50 × 60 cm', image: 'images/fengjing05.jpg', alt: '沙色海岸与灰绿色水面的占位插画', description: '写生的' },
+    { id: '6', title: 'JIMI', year: '2026', series: '小动物创作', medium: '木板油画', size: '30 × 40 cm', image: 'images/painting-niao2.jpg', alt: '暖灰色房间里一把椅子的占位插画', description: '鸡米！' },
  {
   id: '7',
   title: '年味',
@@ -20,8 +20,8 @@ const portfolio = {
   medium: '木板油画',
   size: '30 × 40 cm',
   image: 'images/nianhua01.jpg',
-  alt: '你好',
-  description: '填写这件作品的介绍。'
+  alt: '画面描述',
+  description: '过年了！。'
 },
  {
   id: '8',
@@ -32,7 +32,7 @@ const portfolio = {
   size: '72 × 96 cm',
   image: 'images/xu.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '宁静的房间。'
 },     
  {
   id: '9',
@@ -43,7 +43,7 @@ const portfolio = {
   size: '50 × 60 cm',
   image: 'images/fengjing01.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '风景写生'
 },
  {
   id: '10',
@@ -54,7 +54,7 @@ const portfolio = {
   size: '30 × 40 cm',
   image: 'images/fengjing02.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '风景写生'
 },
 {
   id: '11',
@@ -65,7 +65,7 @@ const portfolio = {
   size: '50 × 60 cm',
   image: 'images/fengjing03.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '风景写生'
 },
 {
   id: '12',
@@ -76,7 +76,7 @@ const portfolio = {
   size: '38 × 53 cm',
   image: 'images/ji.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '综合材料'
 },
 {
   id: '13',
@@ -87,7 +87,7 @@ const portfolio = {
   size: '30 × 40 cm',
   image: 'images/nianhua02.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '丰收了！'
 },
 {
   id: '14',
@@ -98,7 +98,7 @@ const portfolio = {
   size: '30 × 40 cm',
   image: 'images/wuti01.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '这幅画没有题目'
 },
 {
   id: '15',
@@ -109,7 +109,7 @@ const portfolio = {
   size: '无尺寸',
   image: 'images/dangdai01.jpg',
   alt: '画面描述',
-  description: '作品介绍'
+  description: '沉淀。'
 }
   ]
 };
