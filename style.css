@@ -5,16 +5,16 @@
   position: absolute;
   right: 0;
   top: 20px;
-  width: 150px;
-  height: 190px;
+  width: 60px;
+  height: 76px;
   object-fit: cover;
   border-radius: 0;
 }
 @media (max-width: 560px) {
   .artist-photo {
     position: static;
-    width: 110px;
-    height: 140px;
+    width: 45px;
+    height: 57px;
     margin: 25px 0 0 auto;
   }
 }
